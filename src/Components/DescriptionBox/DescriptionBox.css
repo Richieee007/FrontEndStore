@@ -6,7 +6,7 @@
 .descriptionbox-nav{
 
     display: flex;
-}
+} 
 
 .descriptionbox-navbox{
 
@@ -34,4 +34,19 @@
     border: 1px solid #d0d0d0;
     padding: 48px;
     padding-bottom: 70px;
+}
+@media(max-width: 1280px){
+
+    .descriptionbox{
+        margin: 60px;
+    }
+}
+@media(max-width: 800px){
+
+    .descriptionbox{
+        margin: 60px 20px; 
+    }
+    .descriptionbox-description{
+        font-size: 14px;
+    }
 }
